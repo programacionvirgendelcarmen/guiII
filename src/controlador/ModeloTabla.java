@@ -1,4 +1,4 @@
-package vista.app5;
+package controlador;
 
 import modelo.modelo.dao.UsuarioDAO;
 import modelo.modelo.dao.UsuarioDAOImp;
@@ -12,10 +12,14 @@ import java.util.List;
 
 
 public class ModeloTabla extends AbstractTableModel implements TableModelListener {
-    UsuarioDAO dao = new UsuarioDAOImp();
-    String[] columnNames = {"id", "nombre", "dni"};
+    private UsuarioDAO dao = new UsuarioDAOImp();
+    private String[] columnNames = {"id", "nombre", "dni"};
 
-    List<String[]> data;
+    private List<String[]> data;
+
+    public List<String[]> getData() {
+        return data;
+    }
 
     {
         try {

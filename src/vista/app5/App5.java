@@ -1,5 +1,7 @@
 package vista.app5;
 
+import controlador.ModeloTabla;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,7 +9,7 @@ public class App5 extends JFrame{
     private JPanel mainPanel;
     private JScrollPane scrollPane;
     private JPanel panelInferior;
-    private JButton button1;
+    private JButton botonBorrar;
     private JButton button2;
     private JButton button3;
     private JTable tabla;
@@ -22,6 +24,14 @@ public class App5 extends JFrame{
         setResizable(false);
         setLocationRelativeTo(null);
 
+    }
+
+    public JButton getBotonBorrar() {
+        return botonBorrar;
+    }
+
+    public JTable getTabla() {
+        return tabla;
     }
 
     public static void main(String[] args) {
