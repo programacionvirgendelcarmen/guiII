@@ -10,7 +10,7 @@ public class App5 extends JFrame{
     private JScrollPane scrollPane;
     private JPanel panelInferior;
     private JButton botonBorrar;
-    private JButton button2;
+    private JButton botonActualizar;
     private JButton button3;
     private JTable tabla;
 
@@ -24,6 +24,10 @@ public class App5 extends JFrame{
         setResizable(false);
         setLocationRelativeTo(null);
 
+    }
+
+    public JButton getBotonActualizar() {
+        return botonActualizar;
     }
 
     public JButton getBotonBorrar() {

@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d6c392-fe2d-4596-8eee-193ac9a1f4b7" name="Changes" comment="Inicio repositorio">
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlador/Controlador.java" afterDir="false" />
+    <list default="true" id="12d6c392-fe2d-4596-8eee-193ac9a1f4b7" name="Changes" comment="Ejemplo de modelo tabla con borrado de datos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBs/usuarios.db" beforeDir="false" afterPath="$PROJECT_DIR$/DBs/usuarios.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlador/ModeloTabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/ModeloTabla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vista/app5/App5.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/app5/App5.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vista/app5/App5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/app5/App5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/app5/ModeloTabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/ModeloTabla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/controlador/ModeloTabla.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Q9bu6cVBTeDM4gsgEvzH027kgJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,6 +62,20 @@
       <recent name="$PROJECT_DIR$/src/teoria/modelo/dao" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="proyecto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,11 +92,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684844778409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ejemplo de modelo tabla con borrado de datos">
+      <created>1684852315277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684852315277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio repositorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio repositorio" />
+    <MESSAGE value="Ejemplo de modelo tabla con borrado de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo de modelo tabla con borrado de datos" />
   </component>
 </project>

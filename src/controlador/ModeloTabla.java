@@ -1,5 +1,6 @@
 package controlador;
 
+import modelo.modelo.dao.Usuario;
 import modelo.modelo.dao.UsuarioDAO;
 import modelo.modelo.dao.UsuarioDAOImp;
 
@@ -8,10 +9,11 @@ import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
-public class ModeloTabla extends AbstractTableModel implements TableModelListener {
+public class ModeloTabla extends AbstractTableModel {
     private UsuarioDAO dao = new UsuarioDAOImp();
     private String[] columnNames = {"id", "nombre", "dni"};
 
@@ -49,11 +51,29 @@ public class ModeloTabla extends AbstractTableModel implements TableModelListene
         return columnNames[column];
     }
 
-
-
+    @Override
+    public boolean isCellEditable(int rowIndex, int columnIndex) {
+        if (columnIndex == 0)
+            return false;
+        return true;
+    }
 
     @Override
-    public void tableChanged(TableModelEvent tableModelEvent) {
-
+    public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
+        String[] usuario = data.get(rowIndex);
+      /*  System.out.println(Arrays.toString(usuario));
+        System.out.println(aValue);*/
+        if (columnIndex == 1) {
+            usuario[1] = aValue.toString();
+            fireTableCellUpdated(rowIndex, columnIndex);
+        }
+        if (columnIndex == 2) {
+            usuario[2] = aValue.toString();
+            fireTableCellUpdated(rowIndex, columnIndex);
+        }
     }
+
 }
+
+
+

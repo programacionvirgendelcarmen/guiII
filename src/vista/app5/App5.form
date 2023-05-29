@@ -34,10 +34,10 @@
               <text value="borrar"/>
             </properties>
           </component>
-          <component id="4053e" class="javax.swing.JButton" binding="button2" default-binding="true">
+          <component id="4053e" class="javax.swing.JButton" binding="botonActualizar">
             <constraints/>
             <properties>
-              <text value="Button"/>
+              <text value="actualizar"/>
             </properties>
           </component>
           <component id="69c28" class="javax.swing.JButton" binding="button3" default-binding="true">
